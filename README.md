@@ -8,10 +8,11 @@ we used supervised machine learning classification algorithm to make the sentime
 The data was downloaded from here: https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences. 
 
 ### Data Preprocessing
-We did data preprocessing using NLTK(natural langauge toolkit library) in python like:
+We did data preprocessing using NLTK(natural langauge toolkit library) in python. The steps are as follows:
 1. Make all alphabets into lowercase.
 2. Word tokenizing.
-3. Removed the stopwords like is,this,am.
+3. Stemming
+4. Removed the stopwords like is,this,am.
 
 ### Training machine learning model
 We used 1000 most frequent words that were in dataset and used them to make the machine learning model.
