@@ -1,10 +1,12 @@
 # Image-Sentiment
-An Android Application which helps user to recognise text from an Image and learn about its sentiments in the form of audio. This was our first attempt in developing an Android App where the backend logic was developed in python and the motivation behind this project was to build an accessible sentiment analyser and the urge to learn building machine learning apps.
+This project was made by me and Abhilash Rath(https://github.com/AbhilashRath).
+
+The project presents an 'Android Application' thay help users to recognise text from any Image and learn about its 'Sentiments' in the form of an audio. This is our first attempt in developing an Android App where the backend logic was developed in python. The driving force for the project was the urge build an accessible sentiment analyser and to learn building machine learning apps.
 
 Firebase ML-Kit was used to host our custom ML model of sentiment analysis and pre-built API of text recognition by Firebase was used to recognise texts from images.
 
 ## Sentiments Analysis
-we used supervised machine learning classification algorithm to make the sentiment analysis model in python. 
+We used supervised machine learning classification algorithm to make the sentiment analysis model in python. 
 The data was downloaded from here: https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences. 
 
 ### Data Preprocessing
