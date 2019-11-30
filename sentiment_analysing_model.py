@@ -71,7 +71,7 @@ model.add(Dense(1,activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy'])
 model.fit(trn_x, trn_y, batch_size=64, epochs=15, verbose=1,validation_data=(val_x, val_y))
 
-def predict_data(data):                                                                                                            # load saved model
+def predict_data(data):                                                                                                            
     input_data = tokenizer.texts_to_sequences(data);
     print(input_data)
     input_data = tokenizer.sequences_to_matrix(input_data,mode='binary');
